@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* apply style changes to all elements in the <header> tag*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +16,18 @@ body {
     color: #ffffff;
 }
 
+/* give <h1> tag in the head <header> tag an inline block display and a font-size*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* give the class "seo" in the <h1> tag of the <header> tag a font color */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* apply style changes in the <header> tag to all elements in the <div> tag */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +36,30 @@ body {
     font-size: 20px;
 }
 
+/* give the unordered list in the <div> tag in the <header> tag a list style type */ 
 .header div ul {
     list-style-type: none;
 }
 
+
+/* give the list in the <ul> tag in the <div> and <header> tags an inline block display and left margin */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* apply style changes to <a> link tags */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* apply style changes to <p> text tags*/
 p {
     font-size: 16px;
 }
 
+/* apply style changes to div class "hero" which applies a background image*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +69,89 @@ p {
     background-position: center;
 }
 
+/* apply style changes to class "float-left" which changes the image to float to the left side of the page*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* apply style changes to class "float-right" which changes the image to float to the right side of the page*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* apply style changes to all elements in div class "content" */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* apply style changes to all elements in class "search-engine-optimization" */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* apply style changes to all elements in class "online-reputation-management" */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* apply style changes to all elements in class "social-media-marketing" */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* apply height to the image under class "search-engine-optimization" */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/* apply height to the image under class "online-reputation-management" */
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+/* apply height to the image under class "social-media-marketing" */
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* give a bottom margin and font size to the tag <h2> under class "search-engine-optimization" */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* give a bottom margin and font size to the tag <h2> under class "online-reputation-management" */
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* give a bottom margin and font size to the tag <h2> under class "social-media-marketing" */
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* apply style changes to all elements in the class "benefits" */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,108 +163,64 @@ p {
     background-color: #2589bd;
 }
 
+/* give elements in class "benefit-lead" a bottom margin and white color font */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* give elements in class "benefit-brand" a bottom margin and white color font */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* give elements in class "benefit-cost" a bottom margin and white color font */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* give a bottom margin and align the text to the center in the <h3> tag under class "benefit-lead" */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* give a bottom margin and align the text to the center in the <h3> tag under class "benefit-brand" */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* give a bottom margin and align the text to the center in the <h3> tag under class "benefit-cost" */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* give the image under class "benefit-lead" a block display, a margin, and a maximum width */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* give the image under class "benefit-brand" a block display, a margin, and a maximum width */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* give the image under class "benefit-cost" a block display, a margin, and a maximum width */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* apply style changes to all elements under class "footer" */
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +228,7 @@ p {
     text-align: center;
 }
 
+/* give the <h2> tags under the "footer" class a font-size */
 .footer h2 {
     font-size: 20px;
 }
