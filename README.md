@@ -3,7 +3,7 @@ The following is a challenge for a code refactoring on an already existing websi
 
 # Screenshot
 
-![Alt text](Develop\assets\images\Capture.PNG "Optional title")
+![Alt text](.\Develop\assets\images\Capture.PNG)
 
 # Usage 
 
