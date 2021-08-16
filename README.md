@@ -3,7 +3,7 @@ The following is a challenge for a code refactoring on an already existing websi
 
 # Screenshot
 
-![Alt text](.\Develop\assets\images\Capture.PNG)
+[![Capture.png](https://i.postimg.cc/bJZm96gV/Capture.png)](https://postimg.cc/CBVCFsWb)
 
 # Usage 
 
